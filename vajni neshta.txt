@@ -1,0 +1,103 @@
+desettichno chislo  - float
+biblioteki v pyhon - import math -> from math import math
+\ => tozi znak oznachava prenasqne na nov red
+// => celichisleno delenie
+/ => деления - когато използвам този знак, разултата винаги ми е float
+== -> ravenstvo (kogato iskame da sravnim 2 stoinosti)
+= -> prisvoqvane na stoinost
+!= razlichno
+> po-golqmo
+>= po-golqmo ili ravno
+< po-malko
+<= po-malko ili ravno
+% - gledame ostataka (modulno delenie)
+len -> брои дължината на стринга, като брои символите в него
+конкатенация -> когато имаме + между два стринга плюса ги събира в един стринг
+не може да има + между стринг и интиджер
+парсване -> превръщане в конкретен тип стойност
+
+sled if, na sledvashtiq red kazvame kakvo e vqrno i slagame 1 tabulaciq navytre.
+Else sled if izpylnqva False neshtata
+
+cntrl + / -> pravish markiranite redove komentari i/ili gi razkomentirash
+
+math.ceil -> zakryglqne po-golqmoto chislo
+math.floor -> zakryglqme po-malkoto chislo
+
+abs(2) -> obsolutnata stoinost na chislata ot 0 do 2
+round(45.67234, 2) #45.68 -> zakryglqne kym po-blizkoto cqlo chislo
+print(f"{123.456:.2f}") #123.46 -> Formatirane na 2 znaka sled desettichnata zapetaq
+print(f"{123.456000000:.4f}") #123.4600
+print(f"{minutes}:{seconds_2:02d}") -> ako minutite mi sa 2, a sekundite 4, nqma da mi pokaje 2,4 a shte mi pokaje 2,04 
+
+debygvane = tova e proces na prosledqvane na izpalnenieto na programata. Можеш да маркираш от къде искаш да започва да дебъгва като натиснеш с мишката
+пред номера на реда
+debygvane = cntrl + F9
+с контрол F8 сменяш стъпка по стъпка
+
+{} - formatira - 
+[] - list - 
+
+int*float=float
+
+
+shift + F6 = mojesh da promenish imeto na promenlivata navsqkade v koda
+
+** da slojish chislo na stepen
+
+
+FOR - цикъл
+- използват се само цели числа
+- 
+
+
+for i in range(10) = for i in range(0,10)
+
+for i in range (ot, do, prez) -> "prez" se naricha oshte stypka
+
+len - funkciq koqto izchislqva daljinata na dadena duma (string)
+text = "Softuni"
+lenght = len(text)  -> 7, zashtoto softuni ima 7 simvola
+
+text - funkciq koqto vzima simvol ot tekst po indeks
+text = "SoftUni"
+letter = text[4] -> mnogo vajno e da se izpolzvat kvadratni skobi - > vzima bukva "U" ot SoftUni
+
+import sys
+sys.maxsize -> най-голямото число
+-sys.maxsize -> най-малкото число
+
+continue -> използва се само вътре в цикъла. Отнася се само за цикъла, в който се намира. Означава, не се 
+интересувай какво има надолу докрая в тялото на цикъла, а директно премини към следващата итерация.
+break -> използва се само вътре в цикъла. Той казва, прекъсни веднага цикъла. Полезно е когато искаме да спрем
+цикъла при определени условия. Тоест се слага след if.
+enumerate -> дава възможност да изпиша 2 променливи в цикъла, които са отделени със запетая, като първата винаги ще 
+бъде индекса в който се намирам (и ще показва 0 или 1 или 2 или т.н.) , а втората ще е това което се 
+намира в този индекс (примерно първата буква или втората буква или т.н.)
+
+WHILE - цикъл
+Докато това условие е вярно, изпълни ми това което е в тялото, но след това се върни в началото на цикъла и 
+пак провери дали условието е вярно. В момента в който условието стане грешно, ще излезем от конструкцията на цикъла.
+
+Вложени цикли:
+Това са цикъл в цикъл. При всяка итерация на външния цикъл, вътрешния ще се изпълни изцяло. 
+
+Хубаво е да задаваме някакви променливи дали са True или False. В началото на кода можеш да напишеш flag = "False"
+В последствие, като сложиш някакъв цикъл и след него иф, можеш да добавиш тази променлива като напишеш: flag = True. 
+Ако искаш да прекъснеш кога когато флага стане True, трябва да напишеш: if flag:
+Ако флага никога не е станал True, и при това условие искаш да изпринтеш нещо, ще напишеш: if not flag:
+
+Ако искаш да обходиш едно дълго число -> първо го превърни в стринг. После можеш да го обходиш по следния начин:
+for index, digit in enumerate(числото като стринг):  -> тук при всяка една итерация променливата index, ще връща индекса на който се намира,
+докато digit ще връща стойността, която се намира на същият този индекс. 
+Тук трябва да внимаваш, защото: ако имам числото 1234, индексите започват да се четат от 0 => те ще са 0,1,2,3 
+
+cntrl + alt + L => автоматично форматиране на кода
+
+
+
+
+
+
+
+
